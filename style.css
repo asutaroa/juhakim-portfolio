@@ -220,19 +220,16 @@ a {
   max-width: 1000px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 250px 1fr;
+  grid-template-columns: 220px 1fr;
   gap: 40px;
-  align-items: center;
+  align-items: start;
 }
 
 .about-photo {
-  width: 250px;
-  height: 250px;
-  border: 1px solid #161616;
-  border-radius: 28px;
-  overflow: hidden;
-  background: #d6d5ee;
-  box-shadow: 10px 10px 0 #161616;
+  width: 220px;
+  height: 220px;
+  position: sticky;
+  top: 120px;
 }
 
 .about-box {
