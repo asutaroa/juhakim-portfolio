@@ -133,15 +133,27 @@
         <p>Notion · Canva · Figma · Microsoft Office · Adobe Express · ChatGPT & AI Tools</p>
       </div>
     </section>
+<section id="education" class="section education">
+  <div class="section-heading">
+    <p>03 / Academic Background</p>
+    <h2>Education</h2>
+  </div>
 
+  <div class="education-card">
+    <p class="project-tag">2025 - Present</p>
+    <h3>FIT SUNY Korea</h3>
+    <p>Fashion Business Management</p>
+    <strong>GPA 3.94 / 4.0</strong>
+  </div>
+</section>
     <section id="projects" class="section projects">
       <div class="section-heading">
-        <p>03 / Selected Works</p>
+        <p>04 / Selected Works</p>
         <h2>Featured Projects</h2>
       </div>
 
       <div class="project-grid">
-        <article class="project-card">
+        <article class="project-card" data-project="closet-coach">
           <div class="project-image">COVER IMAGE</div>
           <div class="project-content">
             <p class="project-tag">Sustainable Fashion · Service Planning</p>
@@ -152,7 +164,7 @@
           </div>
         </article>
 
-        <article class="project-card">
+        <article class="project-card" data-project="purchasing-individuality">
           <div class="project-image">COVER IMAGE</div>
           <div class="project-content">
             <p class="project-tag">Consumer Research · Gen Z</p>
@@ -163,7 +175,7 @@
           </div>
         </article>
 
-        <article class="project-card">
+        <article class="project-card" data-project="chanel-digital">
           <div class="project-image">COVER IMAGE</div>
           <div class="project-content">
             <p class="project-tag">Brand Experience · Web</p>
@@ -174,7 +186,7 @@
           </div>
         </article>
 
-        <article class="project-card">
+        <article class="project-card" data-project="bbw-korea">
           <div class="project-image">COVER IMAGE</div>
           <div class="project-content">
             <p class="project-tag">Market Entry · Marketing Strategy</p>
@@ -185,7 +197,7 @@
           </div>
         </article>
 
-        <article class="project-card">
+        <article class="project-card" data-project="closetsync">
           <div class="project-image">COVER IMAGE</div>
           <div class="project-content">
             <p class="project-tag">Fashion Tech · UX Planning</p>
@@ -196,7 +208,7 @@
           </div>
         </article>
 
-        <article class="project-card">
+        <article class="project-card" data-project="ctrl-ugly">
           <div class="project-image">COVER IMAGE</div>
           <div class="project-content">
             <p class="project-tag">Creative Direction · Fashion Film</p>
@@ -211,7 +223,7 @@
 
     <section id="experience" class="section experience">
       <div class="section-heading">
-        <p>04 / Activities</p>
+        <p>05 / Activities</p>
         <h2>Experience</h2>
       </div>
 
@@ -231,18 +243,52 @@
           <p>패션위크 백스테이지 현장에서 쇼 운영을 보조했습니다.</p>
         </div>
 
-        <div class="experience-item">
-          <h3>hemmo</h3>
-          <p>패션 문화와 창작 활동을 중심으로 한 학생 패션 크루 활동을 진행했습니다.</p>
-        </div>
+       <div class="experience-item">
+          <h3>Shugong Vintage</h3>
+          <p>일본 빈티지 의류를 직접 셀렉하고 판매하는 개인 셀링 프로젝트를 진행했습니다.</p>
+</div>
       </div>
     </section>
 
     <section id="contact" class="contact">
       <p class="label">Contact</p>
       <h2>Let’s build better fashion experiences.</h2>
-      <p>https://www.linkedin.com/in/juha-kim-88a523395/</p>
+      <a class="contact-button" href="https://www.linkedin.com/in/juha-kim-88a523395/" target="_blank">
+      View LinkedIn Profile
+    </a>
     </section>
+    <div class="modal" id="projectModal">
+  <div class="modal-bg" id="modalBg"></div>
+
+  <div class="modal-content">
+    <button class="modal-close" id="modalClose">×</button>
+
+    <p class="modal-tag" id="modalTag"></p>
+    <h2 id="modalTitle"></h2>
+    <p class="modal-desc" id="modalDesc"></p>
+
+    <div class="modal-image">
+      PROJECT IMAGE / PDF PREVIEW
+    </div>
+
+    <div class="modal-info">
+      <div>
+        <h3>My Role</h3>
+        <p id="modalRole"></p>
+      </div>
+
+      <div>
+        <h3>Key Takeaway</h3>
+        <p id="modalTakeaway"></p>
+      </div>
+    </div>
+
+    <div class="modal-links">
+      <a id="modalPdf" href="#" target="_blank">View Full Project</a>
+    </div>
+  </div>
+</div>
   </main>
+ <script src="script.js"></script>
 </body>
 </html>
